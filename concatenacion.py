@@ -14,5 +14,7 @@ def concatenar_vertical(imagenes):
 imagen1 = leer_imagen('1.jpg')
 imagen2 = leer_imagen('2.jpg')
 
+
+
 escribir_imagen('concatenada-vertical.jpg', concatenar_vertical([imagen1, imagen2]))    
 escribir_imagen('concatenada-horizontal.jpg', concatenar_horizontal([imagen1, imagen2]))    
